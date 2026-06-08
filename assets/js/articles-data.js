@@ -1,0 +1,74 @@
+const ARTICLES = [
+  {
+    "title": "ETF是什麼？新手用白話一次看懂",
+    "slug": "what-is-etf",
+    "category": "ETF入門",
+    "description": "用買便當的比喻，讓完全不懂投資的人也能理解 ETF。",
+    "date": "2026-06-08",
+    "read": "6 分鐘",
+    "url": "articles/what-is-etf.html"
+  },
+  {
+    "title": "VOO是什麼？為什麼很多人用它長期投資",
+    "slug": "what-is-voo",
+    "category": "ETF入門",
+    "description": "用新手能懂的方式解釋 VOO、S&P 500 與長期投資。",
+    "date": "2026-06-08",
+    "read": "7 分鐘",
+    "url": "articles/what-is-voo.html"
+  },
+  {
+    "title": "ChatGPT可以幫你分析股票嗎？",
+    "slug": "chatgpt-stock-analysis",
+    "category": "AI投資",
+    "description": "AI可以幫你整理資料，但不應該被當成預測股價的工具。",
+    "date": "2026-06-08",
+    "read": "8 分鐘",
+    "url": "articles/chatgpt-stock-analysis.html"
+  },
+  {
+    "title": "複利是什麼？為什麼長期投資很重視它",
+    "slug": "compound-interest",
+    "category": "投資觀念",
+    "description": "用簡單例子理解複利，知道為什麼時間是投資的重要朋友。",
+    "date": "2026-06-08",
+    "read": "6 分鐘",
+    "url": "articles/compound-interest.html"
+  },
+  {
+    "title": "AI能預測股價嗎？新手最容易誤會的一件事",
+    "slug": "can-ai-predict-stocks",
+    "category": "AI投資",
+    "description": "AI不是水晶球，它更適合協助學習、整理與比較。",
+    "date": "2026-06-08",
+    "read": "7 分鐘",
+    "url": "articles/can-ai-predict-stocks.html"
+  },
+  {
+    "title": "定期定額是什麼？為什麼適合忙碌上班族",
+    "slug": "dca-beginner-guide",
+    "category": "投資觀念",
+    "description": "不用猜高低點，也能開始建立長期投資習慣。",
+    "date": "2026-06-08",
+    "read": "6 分鐘",
+    "url": "articles/dca-beginner-guide.html"
+  },
+  {
+    "title": "SPY與VOO差異：新手該選哪一個？",
+    "slug": "spy-vs-voo",
+    "category": "ETF入門",
+    "description": "兩者都很有名，但費用、流動性與使用情境略有不同。",
+    "date": "2026-06-08",
+    "read": "8 分鐘",
+    "url": "articles/spy-vs-voo.html"
+  },
+  {
+    "title": "投資新手最常犯的5個錯誤",
+    "slug": "beginner-investing-mistakes",
+    "category": "投資觀念",
+    "description": "避開常見錯誤，比追求神準預測更重要。",
+    "date": "2026-06-08",
+    "read": "7 分鐘",
+    "url": "articles/beginner-investing-mistakes.html"
+  }
+];
