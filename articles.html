@@ -1,39 +1,26 @@
-<!DOCTYPE html>
-<html lang="zh-Hant">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>文章列表｜AI投資小白研究室</title>
-  <meta name="description" content="AI投資、ETF、美股與新手理財文章列表。">
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
+<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文章列表｜AI投資小白研究室</title><meta name="description" content="AI投資、ETF入門、投資觀念文章列表。"><link rel="stylesheet" href="assets/css/style.css"></head><body>
+
+<div class="topbar">內容僅供學習參考，不構成投資建議｜本站已預留 AdSense 與聯盟行銷版位</div>
 <header class="site-header">
-  <a class="logo" href="index.html">AI投資小白研究室</a>
-  <nav>
-    <a href="index.html">首頁</a>
-    <a href="articles.html">文章</a>
-    <a href="calculator.html">ETF試算機</a>
-    <a href="about.html">關於</a>
-    <a href="contact.html">聯絡</a>
-  </nav>
-</header>
-<main class="page">
-  <h1>文章列表</h1>
-  <p class="lead">先累積 20～30 篇新手文章，是未來申請廣告與取得自然流量的基礎。</p>
-  <div class="filter-bar">
-    <button onclick="renderArticles('全部')">全部</button>
-    <button onclick="renderArticles('AI投資')">AI投資</button>
-    <button onclick="renderArticles('ETF')">ETF</button>
-    <button onclick="renderArticles('觀念')">觀念</button>
+  <div class="header-inner">
+    <a class="logo" href="index.html"><span>AI</span>投資小白研究室</a>
+    <nav class="nav"><a href="index.html">首頁</a><a href="articles.html">文章</a><a href="tools/calculator.html">ETF試算機</a><a href="prompts.html">Prompt庫</a><a href="faq.html">FAQ</a><a href="about.html">關於</a><a class="nav-cta" href="articles.html">開始學習</a></nav>
   </div>
-  <div id="articleList" class="grid three"></div>
+</header>
+
+<main class="page">
+<h1>文章列表</h1><p class="lead">先從「ETF入門、投資觀念、AI投資」三類開始建立基礎。</p>
+<div class="searchbar"><input id="articleSearch" oninput="renderArticles('全部')" placeholder="搜尋文章，例如：VOO、複利、ChatGPT"></div>
+<div class="filterbar"><button onclick="renderArticles('全部')">全部</button><button onclick="renderArticles('ETF入門')">ETF入門</button><button onclick="renderArticles('AI投資')">AI投資</button><button onclick="renderArticles('投資觀念')">投資觀念</button></div>
+<div id="articleList" class="grid three"></div>
 </main>
-<footer>
-  <p>© 2026 AI投資小白研究室｜內容僅供學習參考，不構成投資建議。</p>
+<footer class="footer">
+  <div class="container footer-grid">
+    <div><h3>AI投資小白研究室</h3><p>用白話文幫助新手理解 AI、ETF 與長期投資。</p></div>
+    <div><h4>學習</h4><a href="articles.html">文章列表</a><br><a href="prompts.html">Prompt庫</a><br><a href="tools/calculator.html">ETF試算機</a></div>
+    <div><h4>網站</h4><a href="about.html">關於我們</a><br><a href="contact.html">聯絡我們</a><br><a href="legal/privacy.html">隱私權政策</a></div>
+    <div><h4>提醒</h4><p>投資有風險，請自行判斷並做好資產配置。</p></div>
+  </div>
 </footer>
-<script src="assets/js/articles-data.js"></script>
-<script src="assets/js/main.js"></script>
-<script>renderArticles('全部');</script>
-</body>
-</html>
+<script src="assets/js/articles-data.js"></script><script src="assets/js/main.js"></script><script>renderArticles('全部')</script></body></html>
