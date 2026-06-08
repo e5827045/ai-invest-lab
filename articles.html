@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>文章列表｜AI投資小白研究室</title>
+  <meta name="description" content="AI投資、ETF、美股與新手理財文章列表。">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">AI投資小白研究室</a>
+  <nav>
+    <a href="index.html">首頁</a>
+    <a href="articles.html">文章</a>
+    <a href="calculator.html">ETF試算機</a>
+    <a href="about.html">關於</a>
+    <a href="contact.html">聯絡</a>
+  </nav>
+</header>
+<main class="page">
+  <h1>文章列表</h1>
+  <p class="lead">先累積 20～30 篇新手文章，是未來申請廣告與取得自然流量的基礎。</p>
+  <div class="filter-bar">
+    <button onclick="renderArticles('全部')">全部</button>
+    <button onclick="renderArticles('AI投資')">AI投資</button>
+    <button onclick="renderArticles('ETF')">ETF</button>
+    <button onclick="renderArticles('觀念')">觀念</button>
+  </div>
+  <div id="articleList" class="grid three"></div>
+</main>
+<footer>
+  <p>© 2026 AI投資小白研究室｜內容僅供學習參考，不構成投資建議。</p>
+</footer>
+<script src="assets/js/articles-data.js"></script>
+<script src="assets/js/main.js"></script>
+<script>renderArticles('全部');</script>
+</body>
+</html>

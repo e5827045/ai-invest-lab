@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ETF複利試算機｜AI投資小白研究室</title>
+  <meta name="description" content="輸入每月投入金額、年報酬率與投資年數，試算ETF長期投資的可能成果。">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">AI投資小白研究室</a>
+  <nav>
+    <a href="index.html">首頁</a>
+    <a href="articles.html">文章</a>
+    <a href="calculator.html">ETF試算機</a>
+    <a href="about.html">關於</a>
+    <a href="contact.html">聯絡</a>
+  </nav>
+</header>
+<main class="page">
+  <h1>ETF複利試算機</h1>
+  <p class="lead">這是吸引用戶停留的工具頁。數字只是估算，不代表未來報酬。</p>
+  <section class="calculator">
+    <label>每月投入金額（NT$）<input id="monthly" type="number" value="10000"></label>
+    <label>年化報酬率（%）<input id="rate" type="number" value="7"></label>
+    <label>投資年數<input id="years" type="number" value="20"></label>
+    <button class="btn primary" onclick="calculateCompound()">開始試算</button>
+    <div id="result" class="result"></div>
+  </section>
+</main>
+<footer>
+  <p>© 2026 AI投資小白研究室｜內容僅供學習參考，不構成投資建議。</p>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
